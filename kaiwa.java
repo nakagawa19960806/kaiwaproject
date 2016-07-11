@@ -7,12 +7,12 @@ public class kaiwa {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("[$B:#F|$ND4;R$O$I$&$G$9$+!)(B]");
-		System.out.println("1:$B$$$D$b$I$&$j!#(B");
-		System.out.println("2:$B@d9%D4(B"); 
-		System.out.println("3:$BBND4$,0-$$(B");
-		System.out.println("4:$B%A%g%Y%j%0$G$9!#(B");
-		System.out.print("$BA*Br!'(B"); int n = stdIn.nextInt();
+		System.out.println("[今日の調子はどうですか？]");
+		System.out.println("1:いつもどうり。");
+		System.out.println("2:絶好調"); 
+		System.out.println("3:体調が悪い");
+		System.out.println("4:チョベリグです。");
+		System.out.print("選択："); int n = stdIn.nextInt();
 		 
 		
 	switch (n) {
@@ -26,7 +26,7 @@ public class kaiwa {
 		System.out.println("1:");
 		System.out.println("2:"); 
 		System.out.println("3:");
-		System.out.print("$BA*Br!'(B"); int x = stdIn.nextInt();
+		System.out.print("選択："); int x = stdIn.nextInt();
 	}
 		switch (x) {
 	case 1:System.out.println("1"); break;
@@ -39,7 +39,7 @@ public class kaiwa {
 		System.out.println("1:");
 		System.out.println("2:"); 
 		System.out.println("3:");
-		System.out.print("$BA*Br!'(B"); int x = stdIn.nextInt();
+		System.out.print("選択："); int x = stdIn.nextInt();
 	}
 		switch (x) {
 	case 1:System.out.println("1"); break;
@@ -52,7 +52,7 @@ public class kaiwa {
 		System.out.println("1:");
 		System.out.println("2:"); 
 		System.out.println("3:");
-		System.out.print("$BA*Br!'(B"); int x = stdIn.nextInt();
+		System.out.print("選択："); int x = stdIn.nextInt();
 	}
 		switch (x) {
 	case 1:System.out.println("1"); break;
@@ -66,7 +66,7 @@ public class kaiwa {
 		System.out.println("1:");
 		System.out.println("2:"); 
 		System.out.println("3:");
-		System.out.print("$BA*Br!'(B"); int x = stdIn.nextInt();
+		System.out.print("選択："); int x = stdIn.nextInt();
 	}
 		switch (x) {
 	case 1:System.out.println("1"); break;
